@@ -1,0 +1,80 @@
+body {
+
+    margin: 0;
+    font-family: PingFangSC-Regular, "Helvetica Neue", tahoma, arial, sans-serif;
+    ;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* height: 80px; */
+    height: 80px;
+    font-size: 14px;
+    background-color: #6a6e7e;
+    z-index: 9;
+    -webkit-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    /* align-items: center; */
+}
+
+svg {
+    /* text-align: center; */
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navbar-right {
+    padding-left: 25%;
+
+}
+
+.navbar-right img {
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 30px;
+}
+
+.navbar-right input {
+    margin: 0 10px;
+    background-color: transparent;
+    line-height: 36px;
+    margin: 5px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    width: 250px;
+
+
+}
+
+.nav-items {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.nav-item-for-you{
+    color: #ff4a22;
+}
+
+.nav-app {
+
+    /* border: 2px solid #ff4a22; */
+    -moz-border-radius: 17px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #ff4a22;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-weight: 700;
+}
